@@ -1,0 +1,338 @@
+{
+	"totalRegistered": 909585,
+	"totalCollected": 749066,
+	"totalNotCollected": 160519,
+	"overallCollectionRate": 82.35,
+	"wards": [
+		{
+			"wardId": "ado-w1",
+			"wardName": "Ward 1 - Oke Ila",
+			"lgaId": "ado-ekiti",
+			"lgaName": "Ado Ekiti",
+			"registeredVoters": 7219,
+			"pvcCollected": 5950,
+			"pvcNotCollected": 1269,
+			"collectionRate": 82.42
+		},
+		{
+			"wardId": "ado-w2",
+			"wardName": "Ward 2 - Odo Ado",
+			"lgaId": "ado-ekiti",
+			"lgaName": "Ado Ekiti",
+			"registeredVoters": 7218,
+			"pvcCollected": 5941,
+			"pvcNotCollected": 1277,
+			"collectionRate": 82.31
+		},
+		{
+			"wardId": "ado-w3",
+			"wardName": "Ward 3 - Ijigbo",
+			"lgaId": "ado-ekiti",
+			"lgaName": "Ado Ekiti",
+			"registeredVoters": 7220,
+			"pvcCollected": 6120,
+			"pvcNotCollected": 1100,
+			"collectionRate": 84.76
+		},
+		{
+			"wardId": "ado-w4",
+			"wardName": "Ward 4 - Oke Eso",
+			"lgaId": "ado-ekiti",
+			"lgaName": "Ado Ekiti",
+			"registeredVoters": 7218,
+			"pvcCollected": 5880,
+			"pvcNotCollected": 1338,
+			"collectionRate": 81.46
+		},
+		{
+			"wardId": "ado-w5",
+			"wardName": "Ward 5 - Irona",
+			"lgaId": "ado-ekiti",
+			"lgaName": "Ado Ekiti",
+			"registeredVoters": 7219,
+			"pvcCollected": 5960,
+			"pvcNotCollected": 1259,
+			"collectionRate": 82.56
+		},
+		{
+			"wardId": "ikere-w1",
+			"wardName": "Ward 1 - Oke Ako",
+			"lgaId": "ikere",
+			"lgaName": "Ikere",
+			"registeredVoters": 5292,
+			"pvcCollected": 4365,
+			"pvcNotCollected": 927,
+			"collectionRate": 82.48
+		},
+		{
+			"wardId": "ikere-w2",
+			"wardName": "Ward 2 - Afao",
+			"lgaId": "ikere",
+			"lgaName": "Ikere",
+			"registeredVoters": 5291,
+			"pvcCollected": 4210,
+			"pvcNotCollected": 1081,
+			"collectionRate": 79.56
+		},
+		{
+			"wardId": "ikere-w3",
+			"wardName": "Ward 3 - Ogbese",
+			"lgaId": "ikere",
+			"lgaName": "Ikere",
+			"registeredVoters": 5293,
+			"pvcCollected": 4520,
+			"pvcNotCollected": 773,
+			"collectionRate": 85.40
+		},
+		{
+			"wardId": "oye-w1",
+			"wardName": "Ward 1 - Oye Central",
+			"lgaId": "oye",
+			"lgaName": "Oye",
+			"registeredVoters": 5641,
+			"pvcCollected": 4652,
+			"pvcNotCollected": 989,
+			"collectionRate": 82.47
+		},
+		{
+			"wardId": "oye-w2",
+			"wardName": "Ward 2 - Ayegbaju",
+			"lgaId": "oye",
+			"lgaName": "Oye",
+			"registeredVoters": 5641,
+			"pvcCollected": 4580,
+			"pvcNotCollected": 1061,
+			"collectionRate": 81.19
+		},
+		{
+			"wardId": "oye-w3",
+			"wardName": "Ward 3 - Isinbode",
+			"lgaId": "oye",
+			"lgaName": "Oye",
+			"registeredVoters": 5640,
+			"pvcCollected": 4730,
+			"pvcNotCollected": 910,
+			"collectionRate": 83.87
+		},
+		{
+			"wardId": "ijero-w1",
+			"wardName": "Ward 1 - Ijero Central",
+			"lgaId": "ijero",
+			"lgaName": "Ijero",
+			"registeredVoters": 5029,
+			"pvcCollected": 4147,
+			"pvcNotCollected": 882,
+			"collectionRate": 82.46
+		},
+		{
+			"wardId": "ijero-w2",
+			"wardName": "Ward 2 - Iloro",
+			"lgaId": "ijero",
+			"lgaName": "Ijero",
+			"registeredVoters": 5029,
+			"pvcCollected": 4050,
+			"pvcNotCollected": 979,
+			"collectionRate": 80.53
+		},
+		{
+			"wardId": "ekiti-sw-w1",
+			"wardName": "Ward 1 - Ilawe Central",
+			"lgaId": "ekiti-sw",
+			"lgaName": "Ekiti South-West",
+			"registeredVoters": 4675,
+			"pvcCollected": 3857,
+			"pvcNotCollected": 818,
+			"collectionRate": 82.50
+		},
+		{
+			"wardId": "ekiti-sw-w2",
+			"wardName": "Ward 2 - Igbara Odo",
+			"lgaId": "ekiti-sw",
+			"lgaName": "Ekiti South-West",
+			"registeredVoters": 4675,
+			"pvcCollected": 3920,
+			"pvcNotCollected": 755,
+			"collectionRate": 83.85
+		},
+		{
+			"wardId": "ikole-w1",
+			"wardName": "Ward 1 - Ikole Central",
+			"lgaId": "ikole",
+			"lgaName": "Ikole",
+			"registeredVoters": 5427,
+			"pvcCollected": 4475,
+			"pvcNotCollected": 952,
+			"collectionRate": 82.45
+		},
+		{
+			"wardId": "ikole-w2",
+			"wardName": "Ward 2 - Odo Ayedun",
+			"lgaId": "ikole",
+			"lgaName": "Ikole",
+			"registeredVoters": 5427,
+			"pvcCollected": 4320,
+			"pvcNotCollected": 1107,
+			"collectionRate": 79.60
+		},
+		{
+			"wardId": "moba-w1",
+			"wardName": "Ward 1 - Otun Central",
+			"lgaId": "moba",
+			"lgaName": "Moba",
+			"registeredVoters": 5248,
+			"pvcCollected": 4330,
+			"pvcNotCollected": 918,
+			"collectionRate": 82.51
+		},
+		{
+			"wardId": "moba-w2",
+			"wardName": "Ward 2 - Igogo",
+			"lgaId": "moba",
+			"lgaName": "Moba",
+			"registeredVoters": 5248,
+			"pvcCollected": 4410,
+			"pvcNotCollected": 838,
+			"collectionRate": 84.03
+		},
+		{
+			"wardId": "gbonyin-w1",
+			"wardName": "Ward 1 - Ode Central",
+			"lgaId": "gbonyin",
+			"lgaName": "Gbonyin",
+			"registeredVoters": 4120,
+			"pvcCollected": 3399,
+			"pvcNotCollected": 721,
+			"collectionRate": 82.50
+		},
+		{
+			"wardId": "gbonyin-w2",
+			"wardName": "Ward 2 - Agbado",
+			"lgaId": "gbonyin",
+			"lgaName": "Gbonyin",
+			"registeredVoters": 4120,
+			"pvcCollected": 3280,
+			"pvcNotCollected": 840,
+			"collectionRate": 79.61
+		},
+		{
+			"wardId": "ido-osi-w1",
+			"wardName": "Ward 1 - Ido Central",
+			"lgaId": "ido-osi",
+			"lgaName": "Ido-Osi",
+			"registeredVoters": 4898,
+			"pvcCollected": 4041,
+			"pvcNotCollected": 857,
+			"collectionRate": 82.50
+		},
+		{
+			"wardId": "ido-osi-w2",
+			"wardName": "Ward 2 - Ifaki",
+			"lgaId": "ido-osi",
+			"lgaName": "Ido-Osi",
+			"registeredVoters": 4898,
+			"pvcCollected": 4120,
+			"pvcNotCollected": 778,
+			"collectionRate": 84.12
+		},
+		{
+			"wardId": "efon-w1",
+			"wardName": "Ward 1 - Efon Central",
+			"lgaId": "efon",
+			"lgaName": "Efon",
+			"registeredVoters": 3015,
+			"pvcCollected": 2487,
+			"pvcNotCollected": 528,
+			"collectionRate": 82.49
+		},
+		{
+			"wardId": "efon-w2",
+			"wardName": "Ward 2 - Oke Efon",
+			"lgaId": "efon",
+			"lgaName": "Efon",
+			"registeredVoters": 3015,
+			"pvcCollected": 2560,
+			"pvcNotCollected": 455,
+			"collectionRate": 84.91
+		},
+		{
+			"wardId": "ekiti-east-w1",
+			"wardName": "Ward 1 - Omuo Central",
+			"lgaId": "ekiti-east",
+			"lgaName": "Ekiti East",
+			"registeredVoters": 4532,
+			"pvcCollected": 3739,
+			"pvcNotCollected": 793,
+			"collectionRate": 82.50
+		},
+		{
+			"wardId": "ekiti-east-w2",
+			"wardName": "Ward 2 - Araromi",
+			"lgaId": "ekiti-east",
+			"lgaName": "Ekiti East",
+			"registeredVoters": 4532,
+			"pvcCollected": 3620,
+			"pvcNotCollected": 912,
+			"collectionRate": 79.87
+		},
+		{
+			"wardId": "ilejemeje-w1",
+			"wardName": "Ward 1 - Iye Central",
+			"lgaId": "ilejemeje",
+			"lgaName": "Ilejemeje",
+			"registeredVoters": 2315,
+			"pvcCollected": 1910,
+			"pvcNotCollected": 405,
+			"collectionRate": 82.51
+		},
+		{
+			"wardId": "ilejemeje-w2",
+			"wardName": "Ward 2 - Iworoko",
+			"lgaId": "ilejemeje",
+			"lgaName": "Ilejemeje",
+			"registeredVoters": 2315,
+			"pvcCollected": 1980,
+			"pvcNotCollected": 335,
+			"collectionRate": 85.53
+		},
+		{
+			"wardId": "emure-w1",
+			"wardName": "Ward 1 - Emure Central",
+			"lgaId": "emure",
+			"lgaName": "Emure",
+			"registeredVoters": 2832,
+			"pvcCollected": 2336,
+			"pvcNotCollected": 496,
+			"collectionRate": 82.49
+		},
+		{
+			"wardId": "emure-w2",
+			"wardName": "Ward 2 - Ugbonla",
+			"lgaId": "emure",
+			"lgaName": "Emure",
+			"registeredVoters": 2832,
+			"pvcCollected": 2410,
+			"pvcNotCollected": 422,
+			"collectionRate": 85.10
+		},
+		{
+			"wardId": "ekiti-west-w1",
+			"wardName": "Ward 1 - Aramoko Central",
+			"lgaId": "ekiti-west",
+			"lgaName": "Ekiti West",
+			"registeredVoters": 11032,
+			"pvcCollected": 4671,
+			"pvcNotCollected": 6361,
+			"collectionRate": 42.34
+		},
+		{
+			"wardId": "ekiti-west-w2",
+			"wardName": "Ward 2 - Erio",
+			"lgaId": "ekiti-west",
+			"lgaName": "Ekiti West",
+			"registeredVoters": 11032,
+			"pvcCollected": 4723,
+			"pvcNotCollected": 6309,
+			"collectionRate": 42.81
+		}
+	]
+}

@@ -1,0 +1,498 @@
+{
+	"year": 2018,
+	"title": "2018 Ekiti Gubernatorial Election",
+	"results": [
+		{
+			"id": "ekiti-state-2018",
+			"name": "Ekiti State",
+			"type": "state",
+			"registeredVoters": 909585,
+			"accreditedVoters": 405894,
+			"totalVotesCast": 405302,
+			"validVotes": 393012,
+			"rejectedVotes": 12290,
+			"results": [
+				{
+					"party": "APC",
+					"votes": 197459,
+					"percentage": 50.24
+				},
+				{
+					"party": "PDP",
+					"votes": 178121,
+					"percentage": 45.32
+				},
+				{
+					"party": "Others",
+					"votes": 17432,
+					"percentage": 4.44
+				}
+			],
+			"winner": "APC"
+		},
+		{
+			"id": "ado-ekiti-2018",
+			"name": "Ado Ekiti",
+			"type": "lga",
+			"parentId": "ekiti-state-2018",
+			"registeredVoters": 93840,
+			"accreditedVoters": 41922,
+			"totalVotesCast": 41206,
+			"validVotes": 39876,
+			"rejectedVotes": 1330,
+			"results": [
+				{
+					"party": "APC",
+					"votes": 19532,
+					"percentage": 48.98
+				},
+				{
+					"party": "PDP",
+					"votes": 18640,
+					"percentage": 46.75
+				},
+				{
+					"party": "Others",
+					"votes": 1704,
+					"percentage": 4.27
+				}
+			],
+			"winner": "APC"
+		},
+		{
+			"id": "ikere-2018",
+			"name": "Ikere",
+			"type": "lga",
+			"parentId": "ekiti-state-2018",
+			"registeredVoters": 58210,
+			"accreditedVoters": 26005,
+			"totalVotesCast": 25810,
+			"validVotes": 25012,
+			"rejectedVotes": 798,
+			"results": [
+				{
+					"party": "APC",
+					"votes": 12012,
+					"percentage": 48.02
+				},
+				{
+					"party": "PDP",
+					"votes": 11932,
+					"percentage": 47.71
+				},
+				{
+					"party": "Others",
+					"votes": 1068,
+					"percentage": 4.27
+				}
+			],
+			"winner": "APC"
+		},
+		{
+			"id": "oye-2018",
+			"name": "Oye",
+			"type": "lga",
+			"parentId": "ekiti-state-2018",
+			"registeredVoters": 62050,
+			"accreditedVoters": 27716,
+			"totalVotesCast": 27320,
+			"validVotes": 26481,
+			"rejectedVotes": 839,
+			"results": [
+				{
+					"party": "APC",
+					"votes": 15408,
+					"percentage": 58.19
+				},
+				{
+					"party": "PDP",
+					"votes": 9902,
+					"percentage": 37.39
+				},
+				{
+					"party": "Others",
+					"votes": 1171,
+					"percentage": 4.42
+				}
+			],
+			"winner": "APC"
+		},
+		{
+			"id": "ijero-2018",
+			"name": "Ijero",
+			"type": "lga",
+			"parentId": "ekiti-state-2018",
+			"registeredVoters": 55320,
+			"accreditedVoters": 24703,
+			"totalVotesCast": 24210,
+			"validVotes": 23480,
+			"rejectedVotes": 730,
+			"results": [
+				{
+					"party": "APC",
+					"votes": 12450,
+					"percentage": 53.02
+				},
+				{
+					"party": "PDP",
+					"votes": 9856,
+					"percentage": 41.98
+				},
+				{
+					"party": "Others",
+					"votes": 1174,
+					"percentage": 5.00
+				}
+			],
+			"winner": "APC"
+		},
+		{
+			"id": "ekiti-sw-2018",
+			"name": "Ekiti South-West",
+			"type": "lga",
+			"parentId": "ekiti-state-2018",
+			"registeredVoters": 46750,
+			"accreditedVoters": 20875,
+			"totalVotesCast": 20432,
+			"validVotes": 19810,
+			"rejectedVotes": 622,
+			"results": [
+				{
+					"party": "APC",
+					"votes": 8652,
+					"percentage": 43.67
+				},
+				{
+					"party": "PDP",
+					"votes": 10220,
+					"percentage": 51.59
+				},
+				{
+					"party": "Others",
+					"votes": 938,
+					"percentage": 4.74
+				}
+			],
+			"winner": "PDP"
+		},
+		{
+			"id": "ikole-2018",
+			"name": "Ikole",
+			"type": "lga",
+			"parentId": "ekiti-state-2018",
+			"registeredVoters": 65120,
+			"accreditedVoters": 29089,
+			"totalVotesCast": 28756,
+			"validVotes": 27890,
+			"rejectedVotes": 866,
+			"results": [
+				{
+					"party": "APC",
+					"votes": 14890,
+					"percentage": 53.37
+				},
+				{
+					"party": "PDP",
+					"votes": 11720,
+					"percentage": 42.02
+				},
+				{
+					"party": "Others",
+					"votes": 1280,
+					"percentage": 4.59
+				}
+			],
+			"winner": "APC"
+		},
+		{
+			"id": "irepodun-ifelodun-2018",
+			"name": "Irepodun/Ifelodun",
+			"type": "lga",
+			"parentId": "ekiti-state-2018",
+			"registeredVoters": 56890,
+			"accreditedVoters": 25406,
+			"totalVotesCast": 25010,
+			"validVotes": 24230,
+			"rejectedVotes": 780,
+			"results": [
+				{
+					"party": "APC",
+					"votes": 12340,
+					"percentage": 50.93
+				},
+				{
+					"party": "PDP",
+					"votes": 10890,
+					"percentage": 44.94
+				},
+				{
+					"party": "Others",
+					"votes": 1000,
+					"percentage": 4.13
+				}
+			],
+			"winner": "APC"
+		},
+		{
+			"id": "ise-orun-2018",
+			"name": "Ise/Orun",
+			"type": "lga",
+			"parentId": "ekiti-state-2018",
+			"registeredVoters": 48360,
+			"accreditedVoters": 21601,
+			"totalVotesCast": 21230,
+			"validVotes": 20580,
+			"rejectedVotes": 650,
+			"results": [
+				{
+					"party": "APC",
+					"votes": 10830,
+					"percentage": 52.62
+				},
+				{
+					"party": "PDP",
+					"votes": 8920,
+					"percentage": 43.34
+				},
+				{
+					"party": "Others",
+					"votes": 830,
+					"percentage": 4.03
+				}
+			],
+			"winner": "APC"
+		},
+		{
+			"id": "moba-2018",
+			"name": "Moba",
+			"type": "lga",
+			"parentId": "ekiti-state-2018",
+			"registeredVoters": 62980,
+			"accreditedVoters": 28131,
+			"totalVotesCast": 27810,
+			"validVotes": 26950,
+			"rejectedVotes": 860,
+			"results": [
+				{
+					"party": "APC",
+					"votes": 14220,
+					"percentage": 52.78
+				},
+				{
+					"party": "PDP",
+					"votes": 11530,
+					"percentage": 42.79
+				},
+				{
+					"party": "Others",
+					"votes": 1200,
+					"percentage": 4.45
+				}
+			],
+			"winner": "APC"
+		},
+		{
+			"id": "gbonyin-2018",
+			"name": "Gbonyin",
+			"type": "lga",
+			"parentId": "ekiti-state-2018",
+			"registeredVoters": 41200,
+			"accreditedVoters": 18396,
+			"totalVotesCast": 18100,
+			"validVotes": 17540,
+			"rejectedVotes": 560,
+			"results": [
+				{
+					"party": "APC",
+					"votes": 8120,
+					"percentage": 46.29
+				},
+				{
+					"party": "PDP",
+					"votes": 8630,
+					"percentage": 49.20
+				},
+				{
+					"party": "Others",
+					"votes": 790,
+					"percentage": 4.50
+				}
+			],
+			"winner": "PDP"
+		},
+		{
+			"id": "ido-osi-2018",
+			"name": "Ido-Osi",
+			"type": "lga",
+			"parentId": "ekiti-state-2018",
+			"registeredVoters": 53880,
+			"accreditedVoters": 24063,
+			"totalVotesCast": 23740,
+			"validVotes": 23010,
+			"rejectedVotes": 730,
+			"results": [
+				{
+					"party": "APC",
+					"votes": 13250,
+					"percentage": 57.58
+				},
+				{
+					"party": "PDP",
+					"votes": 8620,
+					"percentage": 37.46
+				},
+				{
+					"party": "Others",
+					"votes": 1140,
+					"percentage": 4.95
+				}
+			],
+			"winner": "APC"
+		},
+		{
+			"id": "efon-2018",
+			"name": "Efon",
+			"type": "lga",
+			"parentId": "ekiti-state-2018",
+			"registeredVoters": 30150,
+			"accreditedVoters": 13467,
+			"totalVotesCast": 13220,
+			"validVotes": 12810,
+			"rejectedVotes": 410,
+			"results": [
+				{
+					"party": "APC",
+					"votes": 7120,
+					"percentage": 55.58
+				},
+				{
+					"party": "PDP",
+					"votes": 5100,
+					"percentage": 39.81
+				},
+				{
+					"party": "Others",
+					"votes": 590,
+					"percentage": 4.61
+				}
+			],
+			"winner": "APC"
+		},
+		{
+			"id": "ekiti-east-2018",
+			"name": "Ekiti East",
+			"type": "lga",
+			"parentId": "ekiti-state-2018",
+			"registeredVoters": 45320,
+			"accreditedVoters": 20238,
+			"totalVotesCast": 19920,
+			"validVotes": 19310,
+			"rejectedVotes": 610,
+			"results": [
+				{
+					"party": "APC",
+					"votes": 9230,
+					"percentage": 47.80
+				},
+				{
+					"party": "PDP",
+					"votes": 9250,
+					"percentage": 47.90
+				},
+				{
+					"party": "Others",
+					"votes": 830,
+					"percentage": 4.30
+				}
+			],
+			"winner": "PDP"
+		},
+		{
+			"id": "ilejemeje-2018",
+			"name": "Ilejemeje",
+			"type": "lga",
+			"parentId": "ekiti-state-2018",
+			"registeredVoters": 23150,
+			"accreditedVoters": 10337,
+			"totalVotesCast": 10180,
+			"validVotes": 9870,
+			"rejectedVotes": 310,
+			"results": [
+				{
+					"party": "APC",
+					"votes": 5880,
+					"percentage": 59.57
+				},
+				{
+					"party": "PDP",
+					"votes": 3530,
+					"percentage": 35.76
+				},
+				{
+					"party": "Others",
+					"votes": 460,
+					"percentage": 4.66
+				}
+			],
+			"winner": "APC"
+		},
+		{
+			"id": "emure-2018",
+			"name": "Emure",
+			"type": "lga",
+			"parentId": "ekiti-state-2018",
+			"registeredVoters": 33980,
+			"accreditedVoters": 15178,
+			"totalVotesCast": 14930,
+			"validVotes": 14470,
+			"rejectedVotes": 460,
+			"results": [
+				{
+					"party": "APC",
+					"votes": 6985,
+					"percentage": 48.27
+				},
+				{
+					"party": "PDP",
+					"votes": 6780,
+					"percentage": 46.86
+				},
+				{
+					"party": "Others",
+					"votes": 705,
+					"percentage": 4.87
+				}
+			],
+			"winner": "APC"
+		},
+		{
+			"id": "ekiti-west-2018",
+			"name": "Ekiti West",
+			"type": "lga",
+			"parentId": "ekiti-state-2018",
+			"registeredVoters": 132385,
+			"accreditedVoters": 59127,
+			"totalVotesCast": 58388,
+			"validVotes": 56562,
+			"rejectedVotes": 1826,
+			"results": [
+				{
+					"party": "APC",
+					"votes": 26540,
+					"percentage": 46.92
+				},
+				{
+					"party": "PDP",
+					"votes": 27571,
+					"percentage": 48.74
+				},
+				{
+					"party": "Others",
+					"votes": 2451,
+					"percentage": 4.33
+				}
+			],
+			"winner": "PDP"
+		}
+	]
+}

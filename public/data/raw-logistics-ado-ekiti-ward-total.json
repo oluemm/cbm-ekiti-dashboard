@@ -1,0 +1,111 @@
+[
+  {
+    "__EMPTY": "WARDS",
+    "__EMPTY_1": "PU & VP",
+    "__EMPTY_2": "PVCs COLLECTED",
+    "__EMPTY_3": "TARGET 50% PVC",
+    "__EMPTY_4": "20K UNIT AGENTS",
+    "__EMPTY_5": "5K PER VOTER",
+    "__EMPTY_6": "20K INEC ADHOC",
+    "__EMPTY_7": "10K UNIT SECURITY",
+    "__EMPTY_8": "RAC SECURITY",
+    "__EMPTY_9": "WARD AGENT 30K",
+    "__EMPTY_10": "20K NYSC CORPERS",
+    "__EMPTY_11": "TOTAL WARD"
+  },
+  {
+    "ADO-EKITI": "01",
+    "__EMPTY": "ADO 'A' IDOFIN",
+    "__EMPTY_8": 10000,
+    "__EMPTY_9": 30000
+  },
+  {
+    "ADO-EKITI": "02",
+    "__EMPTY": "ADO 'B' INISA",
+    "__EMPTY_8": 10000,
+    "__EMPTY_9": 30000
+  },
+  {
+    "ADO-EKITI": "03",
+    "__EMPTY": "ADO 'C' IDOLOFIN",
+    "__EMPTY_8": 10000,
+    "__EMPTY_9": 30000
+  },
+  {
+    "ADO-EKITI": "04",
+    "__EMPTY": "ADO 'D' IJIGBO",
+    "__EMPTY_8": 10000,
+    "__EMPTY_9": 30000
+  },
+  {
+    "ADO-EKITI": "05",
+    "__EMPTY": "ADO 'E' IJOKA",
+    "__EMPTY_8": 10000,
+    "__EMPTY_9": 30000
+  },
+  {
+    "ADO-EKITI": "06",
+    "__EMPTY": "ADO 'F' OKEYINMI",
+    "__EMPTY_8": 10000,
+    "__EMPTY_9": 30000
+  },
+  {
+    "ADO-EKITI": "07",
+    "__EMPTY": "ADO 'G' OKE ILA",
+    "__EMPTY_8": 10000,
+    "__EMPTY_9": 30000
+  },
+  {
+    "ADO-EKITI": "08",
+    "__EMPTY": "ADO 'H' EREGURU",
+    "__EMPTY_8": 10000,
+    "__EMPTY_9": 30000
+  },
+  {
+    "ADO-EKITI": "09",
+    "__EMPTY": "ADO 'I' DALLIMORE",
+    "__EMPTY_8": 10000,
+    "__EMPTY_9": 30000
+  },
+  {
+    "ADO-EKITI": "10",
+    "__EMPTY": "ADO 'J' OKESA",
+    "__EMPTY_8": 10000,
+    "__EMPTY_9": 30000
+  },
+  {
+    "ADO-EKITI": "11",
+    "__EMPTY": "ADO 'K' IRONA",
+    "__EMPTY_8": 10000,
+    "__EMPTY_9": 30000
+  },
+  {
+    "ADO-EKITI": "12",
+    "__EMPTY": "ADO 'L' IGBEHIN",
+    "__EMPTY_8": 10000,
+    "__EMPTY_9": 30000
+  },
+  {
+    "ADO-EKITI": "13",
+    "__EMPTY": "ADO 'M' FARM SETTLEMENT",
+    "__EMPTY_8": 10000,
+    "__EMPTY_9": 30000
+  },
+  {
+    "__EMPTY": "TOTAL",
+    "__EMPTY_8": 130000,
+    "__EMPTY_9": 390000
+  },
+  {
+    "__EMPTY": "ADDITIONAL INFORMATION:"
+  },
+  {
+    "__EMPTY": "Please note that the following information also applies along with the above summary information:"
+  },
+  {
+    "__EMPTY": "I. NYSC polling officers at each polling unit will recieve =N=10, 000.00 per Corp member at 2 Corp members per polling Unit =N=20, 000."
+  },
+  {
+    "__EMPTY": "ii. RAC/Collation Center Security on Friday February 15th will receive =N10, 000 per ward."
+  }
+]

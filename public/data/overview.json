@@ -1,0 +1,171 @@
+{
+	"totalLGAs": 16,
+	"totalWards": 177,
+	"totalPollingUnits": 2445,
+	"totalRegisteredVoters": 909585,
+	"totalAccreditedVoters": 405894,
+	"totalPVCCollected": 749066,
+	"totalPVCNotCollected": 160519,
+	"lgas": [
+		{
+			"id": "ado-ekiti",
+			"name": "Ado Ekiti",
+			"wards": 13,
+			"pollingUnits": 234,
+			"registeredVoters": 93840,
+			"accreditedVoters": 41922,
+			"pvcCollected": 77340,
+			"pvcNotCollected": 16500
+		},
+		{
+			"id": "ikere",
+			"name": "Ikere",
+			"wards": 11,
+			"pollingUnits": 153,
+			"registeredVoters": 58210,
+			"accreditedVoters": 26005,
+			"pvcCollected": 48012,
+			"pvcNotCollected": 10198
+		},
+		{
+			"id": "oye",
+			"name": "Oye",
+			"wards": 11,
+			"pollingUnits": 160,
+			"registeredVoters": 62050,
+			"accreditedVoters": 27716,
+			"pvcCollected": 51180,
+			"pvcNotCollected": 10870
+		},
+		{
+			"id": "ijero",
+			"name": "Ijero",
+			"wards": 11,
+			"pollingUnits": 140,
+			"registeredVoters": 55320,
+			"accreditedVoters": 24703,
+			"pvcCollected": 45614,
+			"pvcNotCollected": 9706
+		},
+		{
+			"id": "ekiti-sw",
+			"name": "Ekiti South-West",
+			"wards": 10,
+			"pollingUnits": 126,
+			"registeredVoters": 46750,
+			"accreditedVoters": 20875,
+			"pvcCollected": 38569,
+			"pvcNotCollected": 8181
+		},
+		{
+			"id": "ikole",
+			"name": "Ikole",
+			"wards": 12,
+			"pollingUnits": 178,
+			"registeredVoters": 65120,
+			"accreditedVoters": 29089,
+			"pvcCollected": 53699,
+			"pvcNotCollected": 11421
+		},
+		{
+			"id": "irepodun-ifelodun",
+			"name": "Irepodun/Ifelodun",
+			"wards": 11,
+			"pollingUnits": 147,
+			"registeredVoters": 56890,
+			"accreditedVoters": 25406,
+			"pvcCollected": 46914,
+			"pvcNotCollected": 9976
+		},
+		{
+			"id": "ise-orun",
+			"name": "Ise/Orun",
+			"wards": 11,
+			"pollingUnits": 138,
+			"registeredVoters": 48360,
+			"accreditedVoters": 21601,
+			"pvcCollected": 39897,
+			"pvcNotCollected": 8463
+		},
+		{
+			"id": "moba",
+			"name": "Moba",
+			"wards": 12,
+			"pollingUnits": 164,
+			"registeredVoters": 62980,
+			"accreditedVoters": 28131,
+			"pvcCollected": 51958,
+			"pvcNotCollected": 11022
+		},
+		{
+			"id": "gbonyin",
+			"name": "Gbonyin",
+			"wards": 10,
+			"pollingUnits": 112,
+			"registeredVoters": 41200,
+			"accreditedVoters": 18396,
+			"pvcCollected": 33990,
+			"pvcNotCollected": 7210
+		},
+		{
+			"id": "ido-osi",
+			"name": "Ido-Osi",
+			"wards": 11,
+			"pollingUnits": 139,
+			"registeredVoters": 53880,
+			"accreditedVoters": 24063,
+			"pvcCollected": 44450,
+			"pvcNotCollected": 9430
+		},
+		{
+			"id": "efon",
+			"name": "Efon",
+			"wards": 10,
+			"pollingUnits": 65,
+			"registeredVoters": 30150,
+			"accreditedVoters": 13467,
+			"pvcCollected": 24874,
+			"pvcNotCollected": 5276
+		},
+		{
+			"id": "ekiti-east",
+			"name": "Ekiti East",
+			"wards": 10,
+			"pollingUnits": 118,
+			"registeredVoters": 45320,
+			"accreditedVoters": 20238,
+			"pvcCollected": 37389,
+			"pvcNotCollected": 7931
+		},
+		{
+			"id": "ilejemeje",
+			"name": "Ilejemeje",
+			"wards": 10,
+			"pollingUnits": 65,
+			"registeredVoters": 23150,
+			"accreditedVoters": 10337,
+			"pvcCollected": 19099,
+			"pvcNotCollected": 4051
+		},
+		{
+			"id": "emure",
+			"name": "Emure",
+			"wards": 12,
+			"pollingUnits": 85,
+			"registeredVoters": 33980,
+			"accreditedVoters": 15178,
+			"pvcCollected": 28028,
+			"pvcNotCollected": 5952
+		},
+		{
+			"id": "ekiti-west",
+			"name": "Ekiti West",
+			"wards": 12,
+			"pollingUnits": 121,
+			"registeredVoters": 132385,
+			"accreditedVoters": 59127,
+			"pvcCollected": 56053,
+			"pvcNotCollected": 14332
+		}
+	]
+}

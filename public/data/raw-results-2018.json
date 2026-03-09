@@ -1,0 +1,279 @@
+[
+  {
+    "EKITI STATE GOVERNORSHIP ELECTION 2018": 8
+  },
+  {
+    "__EMPTY_6": "TOTAL #REG AREAS:",
+    "__EMPTY_7": 0
+  },
+  {
+    "EKITI STATE GOVERNORSHIP ELECTION 2018": "Sheet1",
+    "__EMPTY_7": 0
+  },
+  {
+    "EKITI STATE GOVERNORSHIP ELECTION 2018": "S/N",
+    "__EMPTY": "LOCAL GOVERNMENT AREA",
+    "__EMPTY_1": "CODE",
+    "__EMPTY_2": "#REDG VOTERS",
+    "__EMPTY_3": "#ACCRD VOTERS",
+    "__EMPTY_4": "#VALID VOTES",
+    "__EMPTY_5": "#REJECTED VOTES",
+    "__EMPTY_6": "APC",
+    "__EMPTY_7": "PDP",
+    "__EMPTY_8": "ACCORD",
+    "__EMPTY_9": "SDP",
+    "__EMPTY_10": "TOTAL VOTES"
+  },
+  {
+    "EKITI STATE GOVERNORSHIP ELECTION 2018": 1,
+    "__EMPTY": "ADO",
+    "__EMPTY_1": "OO1",
+    "__EMPTY_2": 0,
+    "__EMPTY_3": 0,
+    "__EMPTY_4": 0,
+    "__EMPTY_5": 0,
+    "__EMPTY_6": 28111,
+    "__EMPTY_7": 32810,
+    "__EMPTY_9": 39,
+    "__EMPTY_10": 60960
+  },
+  {
+    "EKITI STATE GOVERNORSHIP ELECTION 2018": 2,
+    "__EMPTY": "EFON",
+    "__EMPTY_1": "OO2",
+    "__EMPTY_2": 27084,
+    "__EMPTY_3": 120,
+    "__EMPTY_4": 0,
+    "__EMPTY_6": 5026,
+    "__EMPTY_7": 5111,
+    "__EMPTY_9": 11,
+    "__EMPTY_10": 10268
+  },
+  {
+    "EKITI STATE GOVERNORSHIP ELECTION 2018": 3,
+    "__EMPTY": "EKITI EAST",
+    "__EMPTY_1": "OO3",
+    "__EMPTY_2": 56898,
+    "__EMPTY_4": 0,
+    "__EMPTY_6": 12778,
+    "__EMPTY_7": 11564,
+    "__EMPTY_9": 26,
+    "__EMPTY_10": 24368
+  },
+  {
+    "EKITI STATE GOVERNORSHIP ELECTION 2018": 4,
+    "__EMPTY": "EKITI WEST",
+    "__EMPTY_1": "OO4",
+    "__EMPTY_2": 46095,
+    "__EMPTY_4": 0,
+    "__EMPTY_6": 12648,
+    "__EMPTY_7": 10137,
+    "__EMPTY_10": 22785
+  },
+  {
+    "EKITI STATE GOVERNORSHIP ELECTION 2018": 5,
+    "__EMPTY": "EKITI SOUTH WEST",
+    "__EMPTY_1": "OO5",
+    "__EMPTY_2": 50652,
+    "__EMPTY_4": 0,
+    "__EMPTY_6": 11015,
+    "__EMPTY_7": 8423,
+    "__EMPTY_9": 23,
+    "__EMPTY_10": 19461
+  },
+  {
+    "EKITI STATE GOVERNORSHIP ELECTION 2018": 6,
+    "__EMPTY": "EMURE",
+    "__EMPTY_1": "OO6",
+    "__EMPTY_2": 23977,
+    "__EMPTY_4": 0,
+    "__EMPTY_6": 7048,
+    "__EMPTY_7": 7121,
+    "__EMPTY_9": 0,
+    "__EMPTY_10": 14169
+  },
+  {
+    "EKITI STATE GOVERNORSHIP ELECTION 2018": 7,
+    "__EMPTY": "GBONYIN",
+    "__EMPTY_1": "OO7",
+    "__EMPTY_2": 49824,
+    "__EMPTY_4": 0,
+    "__EMPTY_6": 11498,
+    "__EMPTY_7": 8027,
+    "__EMPTY_9": 10,
+    "__EMPTY_10": 19535
+  },
+  {
+    "EKITI STATE GOVERNORSHIP ELECTION 2018": 8,
+    "__EMPTY": "IDO OSI",
+    "__EMPTY_1": "OO8",
+    "__EMPTY_2": 53077,
+    "__EMPTY_4": 0,
+    "__EMPTY_6": 12342,
+    "__EMPTY_7": 11145,
+    "__EMPTY_9": 60,
+    "__EMPTY_10": 23547
+  },
+  {
+    "EKITI STATE GOVERNORSHIP ELECTION 2018": 9,
+    "__EMPTY": "IJERO",
+    "__EMPTY_1": "OO9",
+    "__EMPTY_2": 59241,
+    "__EMPTY_4": 0,
+    "__EMPTY_6": 14192,
+    "__EMPTY_7": 11077,
+    "__EMPTY_9": 0,
+    "__EMPTY_10": 25269
+  },
+  {
+    "EKITI STATE GOVERNORSHIP ELECTION 2018": 10,
+    "__EMPTY": "IKERE",
+    "__EMPTY_1": "O10",
+    "__EMPTY_2": 61280,
+    "__EMPTY_4": 0,
+    "__EMPTY_6": 11515,
+    "__EMPTY_7": 17183,
+    "__EMPTY_9": 0,
+    "__EMPTY_10": 28698
+  },
+  {
+    "EKITI STATE GOVERNORSHIP ELECTION 2018": 11,
+    "__EMPTY": "IKOLE",
+    "__EMPTY_1": "O11",
+    "__EMPTY_2": 48471,
+    "__EMPTY_4": 0,
+    "__EMPTY_6": 14522,
+    "__EMPTY_7": 13961,
+    "__EMPTY_9": 53,
+    "__EMPTY_10": 28536
+  },
+  {
+    "EKITI STATE GOVERNORSHIP ELECTION 2018": 12,
+    "__EMPTY": "ILEJEMEJE",
+    "__EMPTY_1": "O12",
+    "__EMPTY_2": 15944,
+    "__EMPTY_4": 0,
+    "__EMPTY_6": 4153,
+    "__EMPTY_7": 3937,
+    "__EMPTY_9": 0,
+    "__EMPTY_10": 8090
+  },
+  {
+    "EKITI STATE GOVERNORSHIP ELECTION 2018": 13,
+    "__EMPTY": "IREPODUN/IFELODUN",
+    "__EMPTY_1": "O13",
+    "__EMPTY_2": 66484,
+    "__EMPTY_4": 0,
+    "__EMPTY_6": 13869,
+    "__EMPTY_7": 11456,
+    "__EMPTY_9": 0,
+    "__EMPTY_10": 25325
+  },
+  {
+    "EKITI STATE GOVERNORSHIP ELECTION 2018": 14,
+    "__EMPTY": "ISE/ORUN",
+    "__EMPTY_1": "O14",
+    "__EMPTY_2": 42474,
+    "__EMPTY_4": 0,
+    "__EMPTY_6": 11908,
+    "__EMPTY_7": 6297,
+    "__EMPTY_9": 5,
+    "__EMPTY_10": 18210
+  },
+  {
+    "EKITI STATE GOVERNORSHIP ELECTION 2018": 15,
+    "__EMPTY": "MOBA",
+    "__EMPTY_1": "O15",
+    "__EMPTY_2": 48524,
+    "__EMPTY_4": 0,
+    "__EMPTY_6": 11837,
+    "__EMPTY_7": 8520,
+    "__EMPTY_9": 15,
+    "__EMPTY_10": 20372
+  },
+  {
+    "EKITI STATE GOVERNORSHIP ELECTION 2018": 16,
+    "__EMPTY": "OYE",
+    "__EMPTY_1": "O16",
+    "__EMPTY_2": 60427,
+    "__EMPTY_4": 0,
+    "__EMPTY_6": 14995,
+    "__EMPTY_7": 11271,
+    "__EMPTY_9": 24,
+    "__EMPTY_10": 26290
+  },
+  {
+    "EKITI STATE GOVERNORSHIP ELECTION 2018": 17,
+    "__EMPTY_10": 0
+  },
+  {
+    "EKITI STATE GOVERNORSHIP ELECTION 2018": 18,
+    "__EMPTY_10": 0
+  },
+  {
+    "EKITI STATE GOVERNORSHIP ELECTION 2018": 19,
+    "__EMPTY_10": 0
+  },
+  {
+    "EKITI STATE GOVERNORSHIP ELECTION 2018": 20,
+    "__EMPTY_10": 0
+  },
+  {
+    "EKITI STATE GOVERNORSHIP ELECTION 2018": 21,
+    "__EMPTY_10": 0
+  },
+  {
+    "EKITI STATE GOVERNORSHIP ELECTION 2018": 22,
+    "__EMPTY_10": 0
+  },
+  {
+    "EKITI STATE GOVERNORSHIP ELECTION 2018": 23,
+    "__EMPTY_10": 0
+  },
+  {
+    "EKITI STATE GOVERNORSHIP ELECTION 2018": 24,
+    "__EMPTY_10": 0
+  },
+  {
+    "EKITI STATE GOVERNORSHIP ELECTION 2018": 25,
+    "__EMPTY_10": 0
+  },
+  {
+    "EKITI STATE GOVERNORSHIP ELECTION 2018": 26,
+    "__EMPTY_10": 0
+  },
+  {
+    "EKITI STATE GOVERNORSHIP ELECTION 2018": 27,
+    "__EMPTY_10": 0
+  },
+  {
+    "EKITI STATE GOVERNORSHIP ELECTION 2018": 28,
+    "__EMPTY_10": 0
+  },
+  {
+    "EKITI STATE GOVERNORSHIP ELECTION 2018": 29,
+    "__EMPTY_10": 0
+  },
+  {
+    "EKITI STATE GOVERNORSHIP ELECTION 2018": 30,
+    "__EMPTY_10": 0
+  },
+  {
+    "__EMPTY": "STATE TOTAL",
+    "__EMPTY_2": 710452,
+    "__EMPTY_4": 0,
+    "__EMPTY_6": 197457,
+    "__EMPTY_7": 178040,
+    "__EMPTY_9": 266,
+    "__EMPTY_10": 375883
+  },
+  {
+    "__EMPTY": "TOTAL REGISTERED VOTERS - 909, 585"
+  },
+  {
+    "__EMPTY": "ACCREDITED - 384,594"
+  },
+  {
+    "__EMPTY": "REJECTED VOTES - 18,857"
+  }
+]

@@ -1,0 +1,184 @@
+[
+  {
+    "__EMPTY": "WARDS",
+    "__EMPTY_1": "PU & VP",
+    "__EMPTY_2": "PVCs COLLECTED",
+    "__EMPTY_3": "NEW PVCs COLLECTED",
+    "__EMPTY_4": "TOTAL PVCs COLLECTED",
+    "__EMPTY_5": "15% Inc. in PVC",
+    "__EMPTY_6": "45% Target of PVC",
+    "__EMPTY_7": "20K UNIT AGENTS",
+    "__EMPTY_8": "5K PER VOTER",
+    "__EMPTY_9": "20K INEC ADHOC",
+    "__EMPTY_10": "10K UNIT SECURITY",
+    "__EMPTY_11": "RAC SECURITY",
+    "__EMPTY_12": "WARD AGENT 30K",
+    "__EMPTY_13": "20K NYSC CORPERS",
+    "__EMPTY_14": "TOTAL WARD"
+  },
+  {
+    "ADO-EKITI": "01",
+    "__EMPTY": "ADO 'A' IDOFIN",
+    "__EMPTY_1": 15,
+    "__EMPTY_3": 911,
+    "__EMPTY_10": 150000,
+    "__EMPTY_11": 10000,
+    "__EMPTY_12": 30000,
+    "__EMPTY_13": 300000
+  },
+  {
+    "ADO-EKITI": "02",
+    "__EMPTY": "ADO 'B' INISA",
+    "__EMPTY_1": 18,
+    "__EMPTY_3": 1269,
+    "__EMPTY_10": 180000,
+    "__EMPTY_11": 10000,
+    "__EMPTY_12": 30000,
+    "__EMPTY_13": 360000
+  },
+  {
+    "ADO-EKITI": "03",
+    "__EMPTY": "ADO 'C' IDOLOFIN",
+    "__EMPTY_1": 17,
+    "__EMPTY_3": 689,
+    "__EMPTY_10": 170000,
+    "__EMPTY_11": 10000,
+    "__EMPTY_12": 30000,
+    "__EMPTY_13": 340000
+  },
+  {
+    "ADO-EKITI": "04",
+    "__EMPTY": "ADO 'D' IJIGBO",
+    "__EMPTY_1": 38,
+    "__EMPTY_3": 1855,
+    "__EMPTY_10": 380000,
+    "__EMPTY_11": 10000,
+    "__EMPTY_12": 30000,
+    "__EMPTY_13": 760000
+  },
+  {
+    "ADO-EKITI": "05",
+    "__EMPTY": "ADO 'E' IJOKA",
+    "__EMPTY_1": 18,
+    "__EMPTY_3": 779,
+    "__EMPTY_10": 180000,
+    "__EMPTY_11": 10000,
+    "__EMPTY_12": 30000,
+    "__EMPTY_13": 360000
+  },
+  {
+    "ADO-EKITI": "06",
+    "__EMPTY": "ADO 'F' OKEYINMI",
+    "__EMPTY_1": 13,
+    "__EMPTY_3": 635,
+    "__EMPTY_10": 130000,
+    "__EMPTY_11": 10000,
+    "__EMPTY_12": 30000,
+    "__EMPTY_13": 260000
+  },
+  {
+    "ADO-EKITI": "07",
+    "__EMPTY": "ADO 'G' OKE ILA",
+    "__EMPTY_1": 22,
+    "__EMPTY_3": 1488,
+    "__EMPTY_10": 220000,
+    "__EMPTY_11": 10000,
+    "__EMPTY_12": 30000,
+    "__EMPTY_13": 440000
+  },
+  {
+    "ADO-EKITI": "08",
+    "__EMPTY": "ADO 'H' EREGURU",
+    "__EMPTY_1": 22,
+    "__EMPTY_3": 671,
+    "__EMPTY_10": 220000,
+    "__EMPTY_11": 10000,
+    "__EMPTY_12": 30000,
+    "__EMPTY_13": 440000
+  },
+  {
+    "ADO-EKITI": "09",
+    "__EMPTY": "ADO 'I' DALLIMORE",
+    "__EMPTY_1": 55,
+    "__EMPTY_3": 3281,
+    "__EMPTY_10": 550000,
+    "__EMPTY_11": 10000,
+    "__EMPTY_12": 30000,
+    "__EMPTY_13": 1100000
+  },
+  {
+    "ADO-EKITI": "10",
+    "__EMPTY": "ADO 'J' OKESA",
+    "__EMPTY_1": 35,
+    "__EMPTY_3": 2130,
+    "__EMPTY_10": 350000,
+    "__EMPTY_11": 10000,
+    "__EMPTY_12": 30000,
+    "__EMPTY_13": 700000
+  },
+  {
+    "ADO-EKITI": "11",
+    "__EMPTY": "ADO 'K' IRONA",
+    "__EMPTY_1": 40,
+    "__EMPTY_3": 2628,
+    "__EMPTY_10": 400000,
+    "__EMPTY_11": 10000,
+    "__EMPTY_12": 30000,
+    "__EMPTY_13": 800000
+  },
+  {
+    "ADO-EKITI": "12",
+    "__EMPTY": "ADO 'L' IGBEHIN",
+    "__EMPTY_1": 17,
+    "__EMPTY_3": 1025,
+    "__EMPTY_10": 170000,
+    "__EMPTY_11": 10000,
+    "__EMPTY_12": 30000,
+    "__EMPTY_13": 340000
+  },
+  {
+    "ADO-EKITI": "13",
+    "__EMPTY": "ADO 'M' FARM SETTLEMENT",
+    "__EMPTY_1": 34,
+    "__EMPTY_3": 1606,
+    "__EMPTY_10": 340000,
+    "__EMPTY_11": 10000,
+    "__EMPTY_12": 30000,
+    "__EMPTY_13": 680000
+  },
+  {
+    "__EMPTY_1": 344,
+    "__EMPTY_3": 18967,
+    "__EMPTY_10": 3440000,
+    "__EMPTY_11": 130000,
+    "__EMPTY_12": 390000,
+    "__EMPTY_13": 6880000
+  },
+  {
+    "__EMPTY": "LG PARTY CHAIRMAN @ N100K",
+    "__EMPTY_14": 100000
+  },
+  {
+    "__EMPTY": "POLICE IN LG @N250K PER LG",
+    "__EMPTY_14": 250000
+  },
+  {
+    "__EMPTY": "DSS IN LG @N100K PER LG",
+    "__EMPTY_14": 100000
+  },
+  {
+    "__EMPTY": "NSCDC IN LG @N100K PER LG",
+    "__EMPTY_14": 100000
+  },
+  {
+    "__EMPTY": "AMOTEKUN IN LG @N100K PER LG",
+    "__EMPTY_14": 100000
+  },
+  {
+    "__EMPTY": "PEACE CORPS IN LG @N50K PER LG",
+    "__EMPTY_14": 50000
+  },
+  {
+    "__EMPTY": "TOTAL"
+  }
+]

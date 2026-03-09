@@ -1,0 +1,220 @@
+[
+  {
+    "__EMPTY": "WARDS",
+    "__EMPTY_1": "POLLING UNIT (PU)",
+    "__EMPTY_2": "TOTAL REG. MEMBERS",
+    "__EMPTY_3": "60% of TOTAL REG. MEMBER",
+    "__EMPTY_4": "VOTERS MOBILIZATN @ 2.5K",
+    "__EMPTY_5": "UNIT MOBILISATION @ N100K",
+    "__EMPTY_6": "WARD PARTY CHAIRMAN @N100K",
+    "__EMPTY_7": "WARD YOUTH LEADER @ N100K",
+    "__EMPTY_8": "WARD RETURNING OFFICER @N50K",
+    "__EMPTY_9": "TOTAL WARD"
+  },
+  {
+    "ADO-EKITI": "01",
+    "__EMPTY": "ADO 'A' IDOFIN",
+    "__EMPTY_1": 11,
+    "__EMPTY_2": 1325,
+    "__EMPTY_3": 795,
+    "__EMPTY_4": 1987500,
+    "__EMPTY_5": 1100000,
+    "__EMPTY_6": 100000,
+    "__EMPTY_7": 100000,
+    "__EMPTY_8": 50000,
+    "__EMPTY_9": 1350000
+  },
+  {
+    "ADO-EKITI": "02",
+    "__EMPTY": "ADO 'B' INISA",
+    "__EMPTY_1": 12,
+    "__EMPTY_2": 924,
+    "__EMPTY_3": 554.4,
+    "__EMPTY_4": 1386000,
+    "__EMPTY_5": 1200000,
+    "__EMPTY_6": 100000,
+    "__EMPTY_7": 100000,
+    "__EMPTY_8": 50000,
+    "__EMPTY_9": 1450000
+  },
+  {
+    "ADO-EKITI": "03",
+    "__EMPTY": "ADO 'C' IDOLOFIN",
+    "__EMPTY_1": 13,
+    "__EMPTY_2": 526,
+    "__EMPTY_3": 315.59999999999997,
+    "__EMPTY_4": 788999.9999999999,
+    "__EMPTY_5": 1300000,
+    "__EMPTY_6": 100000,
+    "__EMPTY_7": 100000,
+    "__EMPTY_8": 50000,
+    "__EMPTY_9": 1550000
+  },
+  {
+    "ADO-EKITI": "04",
+    "__EMPTY": "ADO 'D' IJIGBO",
+    "__EMPTY_1": 18,
+    "__EMPTY_2": 1665,
+    "__EMPTY_3": 999,
+    "__EMPTY_4": 2497500,
+    "__EMPTY_5": 1800000,
+    "__EMPTY_6": 100000,
+    "__EMPTY_7": 100000,
+    "__EMPTY_8": 50000,
+    "__EMPTY_9": 2050000
+  },
+  {
+    "ADO-EKITI": "05",
+    "__EMPTY": "ADO 'E' IJOKA",
+    "__EMPTY_1": 16,
+    "__EMPTY_2": 1314,
+    "__EMPTY_3": 788.4,
+    "__EMPTY_4": 1971000,
+    "__EMPTY_5": 1600000,
+    "__EMPTY_6": 100000,
+    "__EMPTY_7": 100000,
+    "__EMPTY_8": 50000,
+    "__EMPTY_9": 1850000
+  },
+  {
+    "ADO-EKITI": "06",
+    "__EMPTY": "ADO 'F' OKEYINMI",
+    "__EMPTY_1": 9,
+    "__EMPTY_2": 467,
+    "__EMPTY_3": 280.2,
+    "__EMPTY_4": 700500,
+    "__EMPTY_5": 900000,
+    "__EMPTY_6": 100000,
+    "__EMPTY_7": 100000,
+    "__EMPTY_8": 50000,
+    "__EMPTY_9": 1150000
+  },
+  {
+    "ADO-EKITI": "07",
+    "__EMPTY": "ADO 'G' OKE ILA",
+    "__EMPTY_1": 14,
+    "__EMPTY_2": 1004,
+    "__EMPTY_3": 602.4,
+    "__EMPTY_4": 1506000,
+    "__EMPTY_5": 1400000,
+    "__EMPTY_6": 100000,
+    "__EMPTY_7": 100000,
+    "__EMPTY_8": 50000,
+    "__EMPTY_9": 1650000
+  },
+  {
+    "ADO-EKITI": "08",
+    "__EMPTY": "ADO 'H' EREGURU",
+    "__EMPTY_1": 21,
+    "__EMPTY_2": 964,
+    "__EMPTY_3": 578.4,
+    "__EMPTY_4": 1446000,
+    "__EMPTY_5": 2100000,
+    "__EMPTY_6": 100000,
+    "__EMPTY_7": 100000,
+    "__EMPTY_8": 50000,
+    "__EMPTY_9": 2350000
+  },
+  {
+    "ADO-EKITI": "09",
+    "__EMPTY": "ADO 'I' DALLIMORE",
+    "__EMPTY_1": 23,
+    "__EMPTY_2": 1915,
+    "__EMPTY_3": 1149,
+    "__EMPTY_4": 2872500,
+    "__EMPTY_5": 2300000,
+    "__EMPTY_6": 100000,
+    "__EMPTY_7": 100000,
+    "__EMPTY_8": 50000,
+    "__EMPTY_9": 2550000
+  },
+  {
+    "ADO-EKITI": "10",
+    "__EMPTY": "ADO 'J' OKESA",
+    "__EMPTY_1": 18,
+    "__EMPTY_2": 1370,
+    "__EMPTY_3": 822,
+    "__EMPTY_4": 2055000,
+    "__EMPTY_5": 1800000,
+    "__EMPTY_6": 100000,
+    "__EMPTY_7": 100000,
+    "__EMPTY_8": 50000,
+    "__EMPTY_9": 2050000,
+    "__EMPTY_11": 2781.25
+  },
+  {
+    "ADO-EKITI": "11",
+    "__EMPTY": "ADO 'K' IRONA",
+    "__EMPTY_1": 16,
+    "__EMPTY_2": 1380,
+    "__EMPTY_3": 828,
+    "__EMPTY_4": 2070000,
+    "__EMPTY_5": 1600000,
+    "__EMPTY_6": 100000,
+    "__EMPTY_7": 100000,
+    "__EMPTY_8": 50000,
+    "__EMPTY_9": 1850000
+  },
+  {
+    "ADO-EKITI": "12",
+    "__EMPTY": "ADO 'L' IGBEHIN",
+    "__EMPTY_1": 10,
+    "__EMPTY_2": 853,
+    "__EMPTY_3": 511.79999999999995,
+    "__EMPTY_4": 1279500,
+    "__EMPTY_5": 1000000,
+    "__EMPTY_6": 100000,
+    "__EMPTY_7": 100000,
+    "__EMPTY_8": 50000,
+    "__EMPTY_9": 1250000
+  },
+  {
+    "ADO-EKITI": "13",
+    "__EMPTY": "ADO 'M' FARM SETTLEMENT",
+    "__EMPTY_1": 26,
+    "__EMPTY_2": 1226,
+    "__EMPTY_3": 735.6,
+    "__EMPTY_4": 1839000,
+    "__EMPTY_5": 2600000,
+    "__EMPTY_6": 100000,
+    "__EMPTY_7": 100000,
+    "__EMPTY_8": 50000,
+    "__EMPTY_9": 2850000
+  },
+  {
+    "__EMPTY": "LG PARTY CHAIRMAN @ N100K",
+    "__EMPTY_9": 100000
+  },
+  {
+    "__EMPTY": "POLICE IN LG @N250K PER LG",
+    "__EMPTY_9": 250000
+  },
+  {
+    "__EMPTY": "DSS IN LG @N100K PER LG",
+    "__EMPTY_9": 100000
+  },
+  {
+    "__EMPTY": "NSCDC IN LG @N100K PER LG",
+    "__EMPTY_9": 100000
+  },
+  {
+    "__EMPTY": "AMOTEKUN IN LG @N100K PER LG",
+    "__EMPTY_9": 100000
+  },
+  {
+    "__EMPTY": "PEACE CORPS IN LG @N50K PER LG",
+    "__EMPTY_9": 50000
+  },
+  {
+    "__EMPTY": "TOTAL",
+    "__EMPTY_1": 207,
+    "__EMPTY_2": 14933,
+    "__EMPTY_3": 8959.8,
+    "__EMPTY_4": 22399500,
+    "__EMPTY_5": 20700000,
+    "__EMPTY_6": 1300000,
+    "__EMPTY_7": 1300000,
+    "__EMPTY_8": 650000,
+    "__EMPTY_9": 24650000
+  }
+]

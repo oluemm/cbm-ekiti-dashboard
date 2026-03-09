@@ -1,0 +1,498 @@
+{
+	"year": 2022,
+	"title": "2022 Ekiti Gubernatorial Election",
+	"results": [
+		{
+			"id": "ekiti-state-2022",
+			"name": "Ekiti State",
+			"type": "state",
+			"registeredVoters": 988923,
+			"accreditedVoters": 362938,
+			"totalVotesCast": 360753,
+			"validVotes": 351764,
+			"rejectedVotes": 8989,
+			"results": [
+				{
+					"party": "APC",
+					"votes": 187057,
+					"percentage": 53.17
+				},
+				{
+					"party": "PDP",
+					"votes": 128588,
+					"percentage": 36.55
+				},
+				{
+					"party": "Others",
+					"votes": 36119,
+					"percentage": 10.27
+				}
+			],
+			"winner": "APC"
+		},
+		{
+			"id": "ado-ekiti-2022",
+			"name": "Ado Ekiti",
+			"type": "lga",
+			"parentId": "ekiti-state-2022",
+			"registeredVoters": 102210,
+			"accreditedVoters": 37540,
+			"totalVotesCast": 37120,
+			"validVotes": 36210,
+			"rejectedVotes": 910,
+			"results": [
+				{
+					"party": "APC",
+					"votes": 18320,
+					"percentage": 50.59
+				},
+				{
+					"party": "PDP",
+					"votes": 13180,
+					"percentage": 36.40
+				},
+				{
+					"party": "Others",
+					"votes": 4710,
+					"percentage": 13.01
+				}
+			],
+			"winner": "APC"
+		},
+		{
+			"id": "ikere-2022",
+			"name": "Ikere",
+			"type": "lga",
+			"parentId": "ekiti-state-2022",
+			"registeredVoters": 63450,
+			"accreditedVoters": 23280,
+			"totalVotesCast": 23050,
+			"validVotes": 22480,
+			"rejectedVotes": 570,
+			"results": [
+				{
+					"party": "APC",
+					"votes": 12150,
+					"percentage": 54.05
+				},
+				{
+					"party": "PDP",
+					"votes": 7920,
+					"percentage": 35.23
+				},
+				{
+					"party": "Others",
+					"votes": 2410,
+					"percentage": 10.72
+				}
+			],
+			"winner": "APC"
+		},
+		{
+			"id": "oye-2022",
+			"name": "Oye",
+			"type": "lga",
+			"parentId": "ekiti-state-2022",
+			"registeredVoters": 67840,
+			"accreditedVoters": 24890,
+			"totalVotesCast": 24620,
+			"validVotes": 24010,
+			"rejectedVotes": 610,
+			"results": [
+				{
+					"party": "APC",
+					"votes": 14820,
+					"percentage": 61.72
+				},
+				{
+					"party": "PDP",
+					"votes": 6590,
+					"percentage": 27.45
+				},
+				{
+					"party": "Others",
+					"votes": 2600,
+					"percentage": 10.83
+				}
+			],
+			"winner": "APC"
+		},
+		{
+			"id": "ijero-2022",
+			"name": "Ijero",
+			"type": "lga",
+			"parentId": "ekiti-state-2022",
+			"registeredVoters": 60210,
+			"accreditedVoters": 22090,
+			"totalVotesCast": 21860,
+			"validVotes": 21320,
+			"rejectedVotes": 540,
+			"results": [
+				{
+					"party": "APC",
+					"votes": 12890,
+					"percentage": 60.46
+				},
+				{
+					"party": "PDP",
+					"votes": 6410,
+					"percentage": 30.07
+				},
+				{
+					"party": "Others",
+					"votes": 2020,
+					"percentage": 9.47
+				}
+			],
+			"winner": "APC"
+		},
+		{
+			"id": "ekiti-sw-2022",
+			"name": "Ekiti South-West",
+			"type": "lga",
+			"parentId": "ekiti-state-2022",
+			"registeredVoters": 51020,
+			"accreditedVoters": 18720,
+			"totalVotesCast": 18510,
+			"validVotes": 18060,
+			"rejectedVotes": 450,
+			"results": [
+				{
+					"party": "APC",
+					"votes": 9320,
+					"percentage": 51.61
+				},
+				{
+					"party": "PDP",
+					"votes": 6780,
+					"percentage": 37.54
+				},
+				{
+					"party": "Others",
+					"votes": 1960,
+					"percentage": 10.85
+				}
+			],
+			"winner": "APC"
+		},
+		{
+			"id": "ikole-2022",
+			"name": "Ikole",
+			"type": "lga",
+			"parentId": "ekiti-state-2022",
+			"registeredVoters": 71050,
+			"accreditedVoters": 26060,
+			"totalVotesCast": 25810,
+			"validVotes": 25180,
+			"rejectedVotes": 630,
+			"results": [
+				{
+					"party": "APC",
+					"votes": 14210,
+					"percentage": 56.43
+				},
+				{
+					"party": "PDP",
+					"votes": 8570,
+					"percentage": 34.03
+				},
+				{
+					"party": "Others",
+					"votes": 2400,
+					"percentage": 9.53
+				}
+			],
+			"winner": "APC"
+		},
+		{
+			"id": "irepodun-ifelodun-2022",
+			"name": "Irepodun/Ifelodun",
+			"type": "lga",
+			"parentId": "ekiti-state-2022",
+			"registeredVoters": 62080,
+			"accreditedVoters": 22770,
+			"totalVotesCast": 22530,
+			"validVotes": 21990,
+			"rejectedVotes": 540,
+			"results": [
+				{
+					"party": "APC",
+					"votes": 12580,
+					"percentage": 57.21
+				},
+				{
+					"party": "PDP",
+					"votes": 7120,
+					"percentage": 32.38
+				},
+				{
+					"party": "Others",
+					"votes": 2290,
+					"percentage": 10.41
+				}
+			],
+			"winner": "APC"
+		},
+		{
+			"id": "ise-orun-2022",
+			"name": "Ise/Orun",
+			"type": "lga",
+			"parentId": "ekiti-state-2022",
+			"registeredVoters": 52740,
+			"accreditedVoters": 19350,
+			"totalVotesCast": 19140,
+			"validVotes": 18670,
+			"rejectedVotes": 470,
+			"results": [
+				{
+					"party": "APC",
+					"votes": 10120,
+					"percentage": 54.20
+				},
+				{
+					"party": "PDP",
+					"votes": 6580,
+					"percentage": 35.24
+				},
+				{
+					"party": "Others",
+					"votes": 1970,
+					"percentage": 10.55
+				}
+			],
+			"winner": "APC"
+		},
+		{
+			"id": "moba-2022",
+			"name": "Moba",
+			"type": "lga",
+			"parentId": "ekiti-state-2022",
+			"registeredVoters": 68690,
+			"accreditedVoters": 25200,
+			"totalVotesCast": 24940,
+			"validVotes": 24330,
+			"rejectedVotes": 610,
+			"results": [
+				{
+					"party": "APC",
+					"votes": 13560,
+					"percentage": 55.73
+				},
+				{
+					"party": "PDP",
+					"votes": 8420,
+					"percentage": 34.61
+				},
+				{
+					"party": "Others",
+					"votes": 2350,
+					"percentage": 9.66
+				}
+			],
+			"winner": "APC"
+		},
+		{
+			"id": "gbonyin-2022",
+			"name": "Gbonyin",
+			"type": "lga",
+			"parentId": "ekiti-state-2022",
+			"registeredVoters": 44930,
+			"accreditedVoters": 16490,
+			"totalVotesCast": 16310,
+			"validVotes": 15910,
+			"rejectedVotes": 400,
+			"results": [
+				{
+					"party": "APC",
+					"votes": 8030,
+					"percentage": 50.47
+				},
+				{
+					"party": "PDP",
+					"votes": 6220,
+					"percentage": 39.09
+				},
+				{
+					"party": "Others",
+					"votes": 1660,
+					"percentage": 10.43
+				}
+			],
+			"winner": "APC"
+		},
+		{
+			"id": "ido-osi-2022",
+			"name": "Ido-Osi",
+			"type": "lga",
+			"parentId": "ekiti-state-2022",
+			"registeredVoters": 58760,
+			"accreditedVoters": 21560,
+			"totalVotesCast": 21340,
+			"validVotes": 20820,
+			"rejectedVotes": 520,
+			"results": [
+				{
+					"party": "APC",
+					"votes": 13120,
+					"percentage": 63.02
+				},
+				{
+					"party": "PDP",
+					"votes": 5640,
+					"percentage": 27.09
+				},
+				{
+					"party": "Others",
+					"votes": 2060,
+					"percentage": 9.89
+				}
+			],
+			"winner": "APC"
+		},
+		{
+			"id": "efon-2022",
+			"name": "Efon",
+			"type": "lga",
+			"parentId": "ekiti-state-2022",
+			"registeredVoters": 32880,
+			"accreditedVoters": 12060,
+			"totalVotesCast": 11930,
+			"validVotes": 11640,
+			"rejectedVotes": 290,
+			"results": [
+				{
+					"party": "APC",
+					"votes": 6580,
+					"percentage": 56.53
+				},
+				{
+					"party": "PDP",
+					"votes": 3890,
+					"percentage": 33.42
+				},
+				{
+					"party": "Others",
+					"votes": 1170,
+					"percentage": 10.05
+				}
+			],
+			"winner": "APC"
+		},
+		{
+			"id": "ekiti-east-2022",
+			"name": "Ekiti East",
+			"type": "lga",
+			"parentId": "ekiti-state-2022",
+			"registeredVoters": 49430,
+			"accreditedVoters": 18140,
+			"totalVotesCast": 17950,
+			"validVotes": 17510,
+			"rejectedVotes": 440,
+			"results": [
+				{
+					"party": "APC",
+					"votes": 8370,
+					"percentage": 47.80
+				},
+				{
+					"party": "PDP",
+					"votes": 7120,
+					"percentage": 40.66
+				},
+				{
+					"party": "Others",
+					"votes": 2020,
+					"percentage": 11.54
+				}
+			],
+			"winner": "APC"
+		},
+		{
+			"id": "ilejemeje-2022",
+			"name": "Ilejemeje",
+			"type": "lga",
+			"parentId": "ekiti-state-2022",
+			"registeredVoters": 25230,
+			"accreditedVoters": 9260,
+			"totalVotesCast": 9160,
+			"validVotes": 8940,
+			"rejectedVotes": 220,
+			"results": [
+				{
+					"party": "APC",
+					"votes": 5730,
+					"percentage": 64.09
+				},
+				{
+					"party": "PDP",
+					"votes": 2430,
+					"percentage": 27.18
+				},
+				{
+					"party": "Others",
+					"votes": 780,
+					"percentage": 8.72
+				}
+			],
+			"winner": "APC"
+		},
+		{
+			"id": "emure-2022",
+			"name": "Emure",
+			"type": "lga",
+			"parentId": "ekiti-state-2022",
+			"registeredVoters": 37060,
+			"accreditedVoters": 13600,
+			"totalVotesCast": 13460,
+			"validVotes": 13130,
+			"rejectedVotes": 330,
+			"results": [
+				{
+					"party": "APC",
+					"votes": 6220,
+					"percentage": 47.37
+				},
+				{
+					"party": "PDP",
+					"votes": 5670,
+					"percentage": 43.18
+				},
+				{
+					"party": "Others",
+					"votes": 1240,
+					"percentage": 9.45
+				}
+			],
+			"winner": "APC"
+		},
+		{
+			"id": "ekiti-west-2022",
+			"name": "Ekiti West",
+			"type": "lga",
+			"parentId": "ekiti-state-2022",
+			"registeredVoters": 141343,
+			"accreditedVoters": 51868,
+			"totalVotesCast": 51023,
+			"validVotes": 49564,
+			"rejectedVotes": 1459,
+			"results": [
+				{
+					"party": "APC",
+					"votes": 21007,
+					"percentage": 42.38
+				},
+				{
+					"party": "PDP",
+					"votes": 22048,
+					"percentage": 44.49
+				},
+				{
+					"party": "Others",
+					"votes": 6509,
+					"percentage": 13.13
+				}
+			],
+			"winner": "PDP"
+		}
+	]
+}
