@@ -64,9 +64,9 @@ function main() {
   console.log(`📂 Output: ${OUT_DIR}\n`);
 
   // List available files
-  const files = fs.readdirSync(DATA_DIR).filter((f) => f.endsWith('.xls') || f.endsWith('.xlsx'));
+  const files = fs.readdirSync(DATA_DIR).filter((f: string) => f.endsWith('.xls') || f.endsWith('.xlsx'));
   console.log('Available files:');
-  files.forEach((f) => console.log(`  - ${f}`));
+  files.forEach((f: string) => console.log(`  - ${f}`));
   console.log();
 
   // ── 1. 2018 Guber Result ──
