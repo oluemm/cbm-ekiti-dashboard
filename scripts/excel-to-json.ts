@@ -146,19 +146,21 @@ function main() {
 
   // ── 7. INEC Final Registered Voters ──
   try {
-    const wbReg = readExcel('FINAL EKITI STATE REGISTERED VOTERS.xlsx');
+    const wbReg = readExcel('CleanedPVCCollectionSheet.xlsx');
     console.log(`   Sheets: ${wbReg.SheetNames.join(', ')}`);
     const rawRows = sheetToJson<Record<string, unknown>>(wbReg);
     console.log(`   Raw rows: ${rawRows.length}`);
 
     // Map to a clean structure
     const pollingUnits = rawRows
-      .filter((row) => row['S/N'] != null && row['LGA'] != null)
+      .filter((row) => row['LGA'] != null)
       .map((row) => ({
-        sn: Number(row['S/N']),
         lga: String(row['LGA'] ?? '').trim(),
-        ra: String(row['RA'] ?? '').trim(),
-        pu: String(row['PU'] ?? '').trim(),
+        ra: String(row['RA NAME'] ?? '').trim(),
+        pu: String(row['PU NAME'] ?? '').trim(),
+        puCode: String(row['PU CODE'] ?? '').trim(),
+        totalPVCCollected: String(row['TOTA PVC COLLECTED'] ?? '').trim(),
+        totalPVCLeft: String(row['PVC BALANCE'] ?? '').trim(),
         delimitation: String(row['DELIMITATION'] ?? '').trim(),
         registeredVoters: Number(row['REGD VOTERS'] ?? row['REGD\nVOTERS'] ?? row['REGD\r\nVOTERS'] ?? 0),
       }));

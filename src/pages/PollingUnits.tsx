@@ -1,9 +1,10 @@
 import { useState, useMemo } from 'react';
-import { Search, MapPin, Building2, Vote, Users, ChevronLeft, ChevronRight } from 'lucide-react';
+import { MapPin, Building2, Vote, Users, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Header } from '@/components/layout';
 import { KPICard } from '@/components/cards';
 import LoadingSpinner from '@/components/LoadingSpinner';
 import ErrorAlert from '@/components/ErrorAlert';
+import MultiSelectDropdown from '@/components/MultiSelectDropdown';
 import { usePollingUnits } from '@/hooks/useElectionData';
 import { formatNumber } from '@/utils/formatters';
 
@@ -34,29 +35,17 @@ export default function PollingUnits() {
   }, [data, selectedLGAs]);
 
   // Reset RA selection when LGA filter changes
-  const handleLGAChange = (lga: string) => {
-    setSelectedLGAs((prev) => {
-      const next = prev.includes(lga)
-        ? prev.filter((l) => l !== lga)
-        : [...prev, lga];
-      // Remove any RA selections that are no longer valid
-      if (data) {
-        const validRAs = new Set(
-          data
-            .filter((d) => next.length === 0 || next.includes(d.lga))
-            .map((d) => d.ra)
-        );
-        setSelectedRAs((prevRAs) => prevRAs.filter((ra) => validRAs.has(ra)));
-      }
-      return next;
-    });
-    setPage(1);
-  };
-
-  const handleRAChange = (ra: string) => {
-    setSelectedRAs((prev) =>
-      prev.includes(ra) ? prev.filter((r) => r !== ra) : [...prev, ra]
-    );
+  const handleLGAChange = (newLGAs: string[]) => {
+    setSelectedLGAs(newLGAs);
+    // Remove any RA selections that are no longer valid
+    if (data) {
+      const validRAs = new Set(
+        data
+          .filter((d) => newLGAs.length === 0 || newLGAs.includes(d.lga))
+          .map((d) => d.ra)
+      );
+      setSelectedRAs((prevRAs) => prevRAs.filter((ra) => validRAs.has(ra)));
+    }
     setPage(1);
   };
 
@@ -140,99 +129,44 @@ export default function PollingUnits() {
       <div className="card mb-6">
         <div className="grid grid-cols-1 gap-4 lg:grid-cols-3">
           {/* LGA Filter */}
-          <div>
-            <label className="mb-1.5 block text-xs font-semibold uppercase text-gray-500">
-              LGA Filter
-            </label>
-            <div className="max-h-48 overflow-y-auto rounded-lg border border-gray-200 p-2 space-y-1">
-              {allLGAs.map((lga) => (
-                <label
-                  key={lga}
-                  className="flex items-center gap-2 rounded px-2 py-1 text-sm hover:bg-gray-50 cursor-pointer"
-                >
-                  <input
-                    type="checkbox"
-                    checked={selectedLGAs.includes(lga)}
-                    onChange={() => handleLGAChange(lga)}
-                    className="h-4 w-4 rounded border-gray-300 text-primary-600 focus:ring-primary-500"
-                  />
-                  <span>{lga}</span>
-                </label>
-              ))}
-            </div>
-            {selectedLGAs.length > 0 && (
-              <button
-                onClick={() => {
-                  setSelectedLGAs([]);
-                  setSelectedRAs([]);
-                  setPage(1);
-                }}
-                className="mt-1 text-xs text-primary-600 hover:underline"
-              >
-                Clear LGA selection ({selectedLGAs.length})
-              </button>
-            )}
-          </div>
+          <MultiSelectDropdown
+            label="LGA Filter"
+            placeholder="Select LGAs..."
+            options={allLGAs}
+            selected={selectedLGAs}
+            onChange={(newLGAs) => {
+              handleLGAChange(newLGAs);
+            }}
+          />
 
           {/* RA Filter */}
-          <div>
-            <label className="mb-1.5 block text-xs font-semibold uppercase text-gray-500">
-              Registration Area (Ward) Filter
-            </label>
-            <div className="max-h-48 overflow-y-auto rounded-lg border border-gray-200 p-2 space-y-1">
-              {availableRAs.length === 0 ? (
-                <p className="px-2 py-1 text-sm text-gray-400">No RAs available</p>
-              ) : (
-                availableRAs.map((ra) => (
-                  <label
-                    key={ra}
-                    className="flex items-center gap-2 rounded px-2 py-1 text-sm hover:bg-gray-50 cursor-pointer"
-                  >
-                    <input
-                      type="checkbox"
-                      checked={selectedRAs.includes(ra)}
-                      onChange={() => handleRAChange(ra)}
-                      className="h-4 w-4 rounded border-gray-300 text-primary-600 focus:ring-primary-500"
-                    />
-                    <span>{ra}</span>
-                  </label>
-                ))
-              )}
-            </div>
-            {selectedRAs.length > 0 && (
-              <button
-                onClick={() => {
-                  setSelectedRAs([]);
-                  setPage(1);
-                }}
-                className="mt-1 text-xs text-primary-600 hover:underline"
-              >
-                Clear RA selection ({selectedRAs.length})
-              </button>
-            )}
-          </div>
+          <MultiSelectDropdown
+            label="Registration Area (Ward) Filter"
+            placeholder="Select wards..."
+            options={availableRAs}
+            selected={selectedRAs}
+            onChange={(newRAs) => {
+              setSelectedRAs(newRAs);
+              setPage(1);
+            }}
+            disabled={selectedLGAs.length === 0}
+          />
 
           {/* Search */}
           <div>
             <label className="mb-1.5 block text-xs font-semibold uppercase text-gray-500">
-              Search
+              Polling Unit Search
             </label>
-            <div className="relative">
-              <Search
-                size={16}
-                className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"
-              />
-              <input
-                type="text"
-                value={searchQuery}
-                onChange={(e) => {
-                  setSearchQuery(e.target.value);
-                  setPage(1);
-                }}
-                placeholder="Search PU name, delimitation code, or RA..."
-                className="w-full rounded-lg border border-gray-200 py-2 pl-9 pr-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary-500"
-              />
-            </div>
+            <input
+              type="text"
+              value={searchQuery}
+              onChange={(e) => {
+                setSearchQuery(e.target.value);
+                setPage(1);
+              }}
+              placeholder="Search by name or code..."
+              className="w-full rounded-lg border border-gray-200 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary-500"
+            />
             <p className="mt-2 text-xs text-gray-400">
               Showing {formatNumber(filtered.length)} of{' '}
               {formatNumber(data.length)} polling units
@@ -273,44 +207,46 @@ export default function PollingUnits() {
         <div className="overflow-x-auto">
           <table className="w-full text-sm">
             <thead>
-              <tr className="border-b border-gray-200 text-left">
-                <th className="px-3 py-2 text-xs font-semibold uppercase text-gray-500 w-14">
-                  S/N
-                </th>
-                <th className="px-3 py-2 text-xs font-semibold uppercase text-gray-500">
+              <tr className="border-b-2 border-gray-300 bg-gradient-to-r from-green-500 to-gray-900">
+                <th className="px-4 py-3 text-left text-xs font-bold uppercase tracking-widest text-white">
                   LGA
                 </th>
-                <th className="px-3 py-2 text-xs font-semibold uppercase text-gray-500">
+                <th className="px-4 py-3 text-left text-xs font-bold uppercase tracking-widest text-white">
                   Registration Area
                 </th>
-                <th className="px-3 py-2 text-xs font-semibold uppercase text-gray-500">
+                <th className="px-4 py-3 text-left text-xs font-bold uppercase tracking-widest text-white">
                   Polling Unit
                 </th>
-                <th className="px-3 py-2 text-xs font-semibold uppercase text-gray-500">
-                  Delimitation
-                </th>
-                <th className="px-3 py-2 text-xs font-semibold uppercase text-gray-500 text-right">
+                <th className="px-4 py-3 text-right text-xs font-bold uppercase tracking-widest text-white">
                   Regd Voters
+                </th>
+                <th className="px-4 py-3 text-right text-xs font-bold uppercase tracking-widest text-white">
+                  PVC Collected
+                </th>
+                <th className="px-4 py-3 text-right text-xs font-bold uppercase tracking-widest text-white">
+                  PVC Not Collected
                 </th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-100">
               {paginated.map((row, idx) => (
                 <tr
-                  key={`${row.delimitation}-${idx}`}
+                  key={`${row.ra}-${idx}`}
                   className="hover:bg-gray-50"
                 >
-                  <td className="px-3 py-2 text-gray-400">{row.sn}</td>
-                  <td className="px-3 py-2 font-medium">{row.lga}</td>
-                  <td className="px-3 py-2">{row.ra}</td>
-                  <td className="px-3 py-2 max-w-xs truncate" title={row.pu}>
+                  <td className="px-4 py-3 font-medium">{row.lga}</td>
+                  <td className="px-4 py-3">{row.ra}</td>
+                  <td className="px-4 py-3 max-w-xs truncate" title={row.pu}>
                     {row.pu}
                   </td>
-                  <td className="px-3 py-2 font-mono text-xs text-gray-500">
-                    {row.delimitation}
-                  </td>
-                  <td className="px-3 py-2 text-right font-medium text-primary-700">
+                  <td className="px-4 py-3 text-right font-medium text-primary-700">
                     {formatNumber(row.registeredVoters)}
+                  </td>
+                  <td className="px-4 py-3 text-right font-medium text-primary-700">
+                    {formatNumber(row.pvcCollected)}
+                  </td>
+                  <td className="px-4 py-3 text-right font-medium text-red-600">
+                    {formatNumber(row.pvcNotCollected)}
                   </td>
                 </tr>
               ))}
@@ -318,7 +254,7 @@ export default function PollingUnits() {
                 <tr>
                   <td
                     colSpan={6}
-                    className="px-3 py-8 text-center text-gray-400"
+                    className="px-4 py-8 text-center text-gray-400"
                   >
                     No polling units match your filters.
                   </td>

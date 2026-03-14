@@ -201,4 +201,6 @@ export interface PollingUnitRecord {
   pu: string;
   delimitation: string;
   registeredVoters: number;
+  pvcCollected: number;
+  pvcNotCollected: number;
 }
